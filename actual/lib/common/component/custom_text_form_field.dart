@@ -44,6 +44,7 @@ class CustomTextFormField extends StatelessWidget {
         //true - 배경색 있음
         filled: true,
         border: baseBorder,//모든 Input 상태의 기본 스타일 세팅
+        enabledBorder: baseBorder,//선택되지 않을때 활성화(글자쓸수있는..)되는 것임
         focusedBorder: baseBorder.copyWith(
           borderSide: baseBorder.borderSide.copyWith(//이런식의 copyWith를 많이 쓴다.
             color: PRIMARY_COLOR,
